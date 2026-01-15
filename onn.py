@@ -35,8 +35,33 @@ onnx_time = time.time() - t0
 print("scikit-learn time:", sk_time)
 print("ONNX Runtime time:", onnx_time)
 
+
+
+
+
+
+
 """
 python3 onn.py
 pip install
 find ~ -type f -name "activate"
+find ~ -type f -name "activate"
+
+
+/home/nick/myenv/bin/activate
+cmd: /home/nick/myenv/bin/python clean.py
+
+~/.venvs/myenv
+cmd: $HOME/.venvs/myenv/bin/python clean.py
+
+project/
+  .venv/
+  cmd: .venv/bin/python clean.py
+
+which python
+/home/nick/myenv/bin/python
+
+python -c "import sys; print(sys.executable)"
+/home/nick/myenv/bin/python
+
 """
